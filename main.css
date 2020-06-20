@@ -7,7 +7,7 @@
 
 body {
     background: cover;
-    background-image: url("QuizAppImages/empty stage edit B.png");
+    background-image: url('QuizAppImages/stage.png');
     background-repeat: no-repeat;
     background-position: center top;
     background-color: black;
