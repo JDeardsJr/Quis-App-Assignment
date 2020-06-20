@@ -69,7 +69,7 @@ function generateStartScreenHtml() {
     const startScreenHtml = $(`
     <section id="start-screen" class="js-quizBox quizBox">
         <h2>Are you a Musical Theatre wiz???</h2>
-        <img class="picture" src="https://blog.seetickets.com/wp-content/uploads/mark-curry-587x600.jpg" alt="The Wizard in 'Wicked'">
+        <img class="picture" src="QuizAppImages/wizard.jpg" alt="The Wizard in 'Wicked'">
         <p>Let's find out!</p>
         <button type="button" class="js-startButton button">Start Quiz</button>
     </section>`);
