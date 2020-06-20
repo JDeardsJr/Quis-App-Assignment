@@ -144,7 +144,7 @@ function rightAnswerHtml() {
     const rightAnswerString = $(`
         <section id="right-answer" class="quizBox js-quizBox">
             <h2>Correct!</h2>
-            <img class="picture" src="https://bsp-static.playbill.com/dims4/default/dc27536/2147483647/crop/993x559%2B0%2B161/resize/970x546/quality/90/?url=http%3A%2F%2Fpb-asset-replication.s3.amazonaws.com%2F43%2Fc7%2F8f446f2c4b03ac21ad6307b7def1%2Fmanoflamancha-stokes-hr.jpg" alt="Brian Stokes Mitchell as Don Quixote">
+            <img class="picture" src="QuizAppImages/Quixote.jpg" alt="Brian Stokes Mitchell as Don Quixote">
             <p>Someone's been rehearsing...</p>
             <button class="js-nextButton button">Next</button>
         </section>`);
@@ -156,7 +156,7 @@ function wrongAnswerHtml() {
     const wrongAnswerString = $(`
         <section id="wrong-answer" class="quizBox js-quizBox">
             <h2>Sorry, wrong answer!</h2>
-            <img class="picture" src="https://www.adn.com/resizer/mvKqr9foezxAvicIw3PQzvdS-5s=/1200x0/arc-anglerfish-arc2-prod-adn.s3.amazonaws.com/public/AF6DPOZJVRCCJLYYAG5M7PNPJI.jpg" alt="Ursula from 'The Little Mermaid'">
+            <img class="picture" src="QuizAppImages/ursula.jpg" alt="Ursula from 'The Little Mermaid'">
             <p>The correct answer was:</p>
             <h2>${STORE.questions[STORE.questionNumber].answer}</h2>
             <button class="js-nextButton button">Next</button>
@@ -169,7 +169,7 @@ function finalScoreHtml() {
     const finalScoreString = $(`
         <section id="final-page" class="quizBox js-quizBox">
             <h2>All finished!</h2>
-            <img class="picture" src="https://lh3.googleusercontent.com/G8JFcKkj_RlCblWDBf8wFE5l_ocmWssRxfO4Cgs1S4-hFxtDYuFnBnKKb9gFxVJG7afcl4i0j_g80vZSDHfdGFkTJzJh-mf2sLETAttXox0eBrzyKyHH2AeAzgIwwcOG22IVe79B=w2400" alt="Scene from the musical, 'Matilda'">
+            <img class="picture" src="QuizAppImages/matilda.jpg" alt="Scene from the musical, 'Matilda'">
             <h2>Final Score: ${STORE.score} out of 5</h2>
             <button class="js-restartButton button">Try Again?</button>
         </section>`);
