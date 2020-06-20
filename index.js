@@ -156,7 +156,7 @@ function wrongAnswerHtml() {
     const wrongAnswerString = $(`
         <section id="wrong-answer" class="quizBox js-quizBox">
             <h2>Sorry, wrong answer!</h2>
-            <img class="picture" src="https://lh3.googleusercontent.com/cgo1qLpta2a_yTv-OG8v63olFGkenNAK4srFTrVsdgtR32E-UDeB3z8nS2yxVP_xSEGxwp0ZTarvykRmJLrbC9D-55Ckv5w0NBHlKi19QqsPh6VApjjc3tVMOhFy75AyW4A8vsaNthKlhRfDqLRoJHncAvYWx-VsabXsG57RwOP8pBTOpf6sfs1f8JtXOrpoHFvioq9pxh-wNzRju0vcrzJ6hANShh8OoSI0685CDRPIpQQ1M-OxPoB4vuh4_fSWGbzKm6-ttLNlsTV6QCZ0ZzWIMzXUk5w6BZUnRkd6-9i0tBVQL5HhcNiCHQEFP7CjTEq_Meni2E1td5TxuafEzKTO_fFxiyM-qOlKax-5T0tzqAoHBtf2xBw4p2Ed86RCMVI9Squkk6GdVbHVE8_beSjHjv_FExRHeRAvbx2I2BuLgJ9j5TfMUEL-KnpfvnPD4Ne1pr_pmmMGg9xKyYtpsBFPnTDtlX4nkgzMN8FT_nTBL-Mj2R9iMnKN77uHhILi5qQhTfAUibKGngAJtUPM1_zTaV2meMabkat2_CHLNYgHmMBchUqRK-kSodZ4inYuFK6vbdAV0F9VlxinR3UcHXEoa7Z5HyR8uQTAoGjiOCkkYpWr1VO9MK7OWcfNENuqFaf8nPix4i_a_1lRFCvIZU5CD1lzM4ATyuw4HGoMP7jh9Ow5xX3GBL_R88BC=w846-h650-no?authuser=0" alt="Ursula from 'The Little Mermaid'">
+            <img class="picture" src="https://www.adn.com/resizer/mvKqr9foezxAvicIw3PQzvdS-5s=/1200x0/arc-anglerfish-arc2-prod-adn.s3.amazonaws.com/public/AF6DPOZJVRCCJLYYAG5M7PNPJI.jpg" alt="Ursula from 'The Little Mermaid'">
             <p>The correct answer was:</p>
             <h2>${STORE.questions[STORE.questionNumber].answer}</h2>
             <button class="js-nextButton button">Next</button>
