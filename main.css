@@ -6,9 +6,14 @@
 }
 
 body {
-    background: cover;
-    background-image: url('QuizAppImages/stage.png');
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.6)
+      ),
+      url('QuizAppImages/stage.png');
     background-repeat: no-repeat;
+    background: cover;
     background-position: center top;
     background-color: black;
     font-family: 'Roboto Slab', serif;
@@ -97,36 +102,37 @@ label {
 }
 
 @media screen and (min-width: 700px) {
-.quizBox {
-    width: 75%;
-}
+    .quizBox {
+        width: 75%;
+    }
 
-.button {
-    height: 45px;
+    .button {
+        height: 45px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
-header h1 {
-    font-size: 40px;
-}
+    header h1 {
+        font-size: 40px;
+    }
 
-.question-and-score li {
-    font-size: 25px;
-}
+    .question-and-score li {
+        font-size: 25px;
+    }
 
-.quizBox {
-    width: 60%;
-}
+    .quizBox {
+        width: 60%;
+    }
 
-.quizBox h2 {
-    font-size: 30px;
-}
+    .quizBox h2 {
+        font-size: 30px;
+    }
 
-.questionText {
-    font-Size: 23px;
-}
+    .questionText {
+        font-Size: 23px;
+    }
 
-label {
-    font-size: 20px;
-}
+    label {
+        font-size: 20px;
+    }
 }
