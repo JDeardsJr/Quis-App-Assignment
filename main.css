@@ -62,6 +62,10 @@ header h1 {
     margin: auto;
 }
 
+fieldset {
+    border: 0;
+}
+
 .options {
     margin-top: 20px;
 }
