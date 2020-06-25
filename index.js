@@ -114,13 +114,11 @@ function generateQuestionHtml() {
     const questionString = $(`
         <section id="question-template" class="quizBox js-quizBox">
             <form name="quizForm" class="js-questionForm">
-                <div>
+                <fieldset>
                     <legend class="questionText">${currentQuestion.question}</legend>
-                </div>
-                <div class="js-options options"></div>
-                <div>
+                    <div class="js-options options"></div>
                     <button type="submit" class="js-submitButton button">Submit</button >
-                </div>
+                </fieldset>
             </form>
         </section>`);
     return questionString;
